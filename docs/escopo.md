@@ -13,19 +13,20 @@
 
 ## Problema
 
-[2-3 linhas descrevendo o contexto e o risco real do problema]
+Em camaras frias o monitoramento da temperatura é essencial para a conservação dos alimentos,caso não seja feito o devido cuidado
+os alimentos podem vir a estragar e perder sua qualidade gerando perdas lucrativas e até mesmo risco a saude.
 
 
 
 ## O que será monitorado
 
-[Ex.: Temperatura e vibração de um motor de bancada simulado]
+Temperatura dos devidos lugares onde os alimentos serão monitorados.
 
 
 
 ## Sensor / Dado
 
-[Ex.: DHT22 real no ESP32 / variação simulada no Wokwi entre 20°C e 90°C]
+Faixa de temperatura simulada no Wokwi atraves do sensor DHT22, variando entre o minimo de 1 e o maximo de 5 , alertando se houver aumento ou redução da temperatura variante.
 
 
 
@@ -33,29 +34,27 @@
 
 | Tópico | Descrição | Publisher | Subscriber |
 
-|--------|-----------|-----------|------------|
 
-| escola/grupo01/motor/temperatura | Temperatura em °C | ESP32 | Dashboard |
+| escola/grupoG/Frigorifico/temperatura | Temperatura em °C | ESP32 | Dashboard |
 
-| escola/grupo01/motor/status | ONLINE / OFFLINE (LWT) | ESP32 | Dashboard |
+| escola/grupoG/Frigorifico/status | Ativo/Inativo | ESP32 | Dashboard |
 
-| escola/grupo01/motor/alerta | Alertas críticos | ESP32 | Dashboard |
+| escola/grupoG/Frigorifico/alerta | alerta de variação na temperatura | ESP32 | Dashboard |
 
 
 
 ## Resultado Esperado
 
-[O que será visível ao final — terminal, painel, alertas]
-
+Alertas do subscriber atráves de Led quando houver temperatura acima do limite e envio de dados para o terminal em tempo real
 
 
 ## Hardware / Software planejado
 
-- Publisher: [ESP32 físico / Wokwi simulado]
+- Publisher: Wokwi simulado utilizando ESP32
 
-- Broker: Mosquitto na VPS DigitalOcean (IP: SEU_IP)
+- Broker: Mosquitto na VPS DigitalOcean (IP:134.199.142.253)
 
-- Subscriber: [Terminal / Node-RED / outro]
+- Subscriber: Dashboard
 
 
 
