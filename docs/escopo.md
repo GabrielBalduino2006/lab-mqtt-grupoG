@@ -13,14 +13,14 @@
 
 ## Problema
 
-Em camaras frias o monitoramento da temperatura é essencial para a conservação dos alimentos,caso não seja feito o devido cuidado
-os alimentos podem vir a estragar e perder sua qualidade gerando perdas lucrativas e até mesmo risco a saude.
+Em câmaras frias o monitoramento da temperatura é essencial para a conservação dos insumos, caso não seja feito o devido cuidado
+os insumos podem vir a estragar e perder sua qualidade gerando perdas lucrativas e até mesmo risco à saúde.
 
 
 
 ## O que será monitorado
 
-Temperatura dos devidos lugares onde os alimentos serão monitorados.
+Temperatura dos devidos lugares onde os insumos serão monitorados.
 
 
 
@@ -45,7 +45,7 @@ Faixa de temperatura simulada no Wokwi atraves do sensor DHT22, variando entre o
 
 ## Resultado Esperado
 
-Alertas do subscriber atráves de Led quando houver temperatura acima do limite e envio de dados para o terminal em tempo real
+Alertas do subscriber atráves de Led quando houver temperatura acima do limite e envio de dados para o terminal em tempo real.
 
 
 ## Hardware / Software planejado
