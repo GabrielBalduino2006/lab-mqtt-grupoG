@@ -1,1 +1,2 @@
 <img width="1024" height="768" alt="Fluxograma frigorifico" src="https://github.com/user-attachments/assets/53bfaa8f-ec14-49ac-acbd-7498cb1e5613" />
+Em frigorificos, é essencial o monitoramento da temperatura para prevenir perdas de insumos ou riscos à saúde. Por conta disso, deve-se usar um sensor de temperatura na qual será programado para enviar as informações em tempo real para o sistema, com intuito de monitoramento em tempo real. Caso a temperatura passe dos limites pré-dispostos, um alerta visual (LED vermelho) será acionado para regulagem imediata da temperatura.
