@@ -45,7 +45,7 @@ Faixa de temperatura simulada no Wokwi atraves do sensor DHT22, variando entre o
 
 ## Resultado Esperado
 
-Alertas do subscriber atráves de Led quando houver temperatura acima do limite e envio de dados para o terminal em tempo real.
+O sistema monitora a temperatura e publica continuamente os dados. Quando a temperatura sai da faixa de 1°C a 5°C, um alerta é gerado automaticamente em um tópico específico.
 
 
 ## Hardware / Software planejado
