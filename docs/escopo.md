@@ -37,8 +37,6 @@ Faixa de temperatura simulada no Wokwi atraves do sensor DHT22, variando entre o
 
 | escola/grupoG/Frigorifico/temperatura | Temperatura em °C | ESP32 | Dashboard |
 
-| escola/grupoG/Frigorifico/status | Ativo/Inativo | ESP32 | Dashboard |
-
 | escola/grupoG/Frigorifico/alerta | alerta de variação na temperatura | ESP32 | Dashboard |
 
 
