@@ -90,3 +90,7 @@ Essa abordagem garante indicação imediata do estado do sistema, mesmo em caso 
 escola/grupoG/frigorifico/temperatura → envio contínuo de dados sobre temperatura
 
 escola/grupoG/frigorifico/alerta → envio de eventos críticos, como temperatura fora da faixa ideal
+
+
+
+
