@@ -13,8 +13,11 @@ Câmaras frias são ambientes críticos para a conservação de insumos, exigind
 O sistema segue uma arquitetura baseada em Internet das Coisas (IoT), organizada em camadas:
 
 Dispositivo: ESP32 + sensor DHT22 (leitura da temperatura)
+
 Rede: Comunicação via Wi-Fi utilizando MQTT sobre TCP/IP
+
 Plataforma: Broker MQTT (Mosquitto) hospedado em VPS
+
 Aplicação: Subscriber (dashboard) para exibição dos dados.
 
 
@@ -25,12 +28,12 @@ Além disso, o sistema possui resposta local com LEDs:
 🔴 Vermelho: temperatura fora da faixa (condição crítica)
 
 ## Especificação Técnica
-Item              	Definição
-Sensor              DHT22
-Grandeza	          Temperatura
-Faixa operacional 	1°C a 5°C
-Condição crítica	  <1°C ou >5°C
-Unidade	            °C
-Frequência de leitura	A cada 5 segundos
-Formato de payload	JSON
-QoS	1
+Item                      	Definição
+Sensor                      DHT22
+Grandeza	                  Temperatura
+Faixa operacional         	1°C a 5°C
+Condição crítica	          <1°C ou >5°C
+Unidade	                    °C
+Frequência de leitura	      A cada 5 segundos
+Formato de payload	        JSON
+QoS.                      	1
