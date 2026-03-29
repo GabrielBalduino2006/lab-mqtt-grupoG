@@ -8,14 +8,14 @@ Os tópicos MQTT são responsáveis por organizar a comunicação entre o ESP32 
 
 O padrão utilizado segue uma hierarquia organizada:
 
-escola/grupoG/frigorifico/<tipo>
+escola/grupoG/frigorifico/"tipo"
 
 Onde:
 
 - "escola" → escola representa o contexto institucional do projeto
 - "grupoG" → identificação do grupo
 - "frigorifico" → aplicação do sistema
-- "<tipo>" → tipo de informação transmitida
+- "tipo" → tipo de informação transmitida
 
 ## Tópico de Temperatura
 
