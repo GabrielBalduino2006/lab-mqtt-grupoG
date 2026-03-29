@@ -17,6 +17,9 @@ Rede: Comunicação via Wi-Fi utilizando MQTT sobre TCP/IP
 Plataforma: Broker MQTT (Mosquitto) hospedado em VPS
 Aplicação: Subscriber (dashboard) para exibição dos dados
 
+
 Além disso, o sistema possui resposta local com LEDs:
+
 🟢 Verde: temperatura dentro da faixa (1°C a 5°C)
+
 🔴 Vermelho: temperatura fora da faixa (condição crítica)
