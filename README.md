@@ -28,12 +28,18 @@ Além disso, o sistema possui resposta local com LEDs:
 🔴 Vermelho: temperatura fora da faixa (condição crítica)
 
 ## Especificação Técnica
-Item                      	Definição
-Sensor                      DHT22
-Grandeza	                  Temperatura
-Faixa operacional         	1°C a 5°C
-Condição crítica	          <1°C ou >5°C
-Unidade	                    °C
-Frequência de leitura	      A cada 5 segundos
-Formato de payload	        JSON
-QoS.                      	1
+Sensor: DHT22
+
+Grandeza: Temperatura
+
+Faixa operacional: 1°C a 5°C
+
+Condição crítica: Menos que 1°C, mais que 5°C
+
+Unidade: °C
+
+Frequência de leitura: A cada 5 segundos
+
+Formato de payload: JSON
+
+QoS: 1
