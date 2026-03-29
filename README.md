@@ -43,3 +43,12 @@ Frequência de leitura: A cada 5 segundos
 Formato de payload: JSON
 
 QoS: 1
+
+## Instruções de Uso
+
+1. Acesse o projeto no Wokwi e inicie a simulação do ESP32
+2. Certifique-se de que o broker MQTT na VPS está ativo
+3. Execute o subscriber para se conectar ao broker
+4. Observe o recebimento dos dados de temperatura em tempo real
+5. Simule variações de temperatura fora da faixa para testar o envio de alertas
+6. Verifique a mudança dos LEDs conforme a condição da temperatura
