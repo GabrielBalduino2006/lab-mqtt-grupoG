@@ -35,9 +35,13 @@ Faixa de temperatura simulada no Wokwi atraves do sensor DHT22, variando entre o
 | Tópico | Descrição | Publisher | Subscriber |
 
 
-| escola/grupoG/Frigorifico/temperatura | Temperatura em °C | ESP32 | Dashboard |
+| escola/grupoG/Frigorifico/temperatura 
 
-| escola/grupoG/Frigorifico/alerta | alerta de variação na temperatura | ESP32 | Dashboard |
+| Temperatura em °C | ESP32 | Dashboard| 
+
+| escola/grupoG/Frigorifico/alerta 
+
+| alerta de variação na temperatura | ESP32 | Dashboard |
 
 
 
@@ -53,9 +57,3 @@ O sistema monitora a temperatura e publica continuamente os dados. Quando a temp
 - Broker: Mosquitto na VPS DigitalOcean (IP:134.199.142.253)
 
 - Subscriber: Dashboard
-
-
-
-## Evolução planejada
-
-[Se houver ambição de ir além do mínimo — dashboard visual, histórico, etc.]
