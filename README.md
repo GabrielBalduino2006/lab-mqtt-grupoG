@@ -15,7 +15,7 @@ O sistema segue uma arquitetura baseada em Internet das Coisas (IoT), organizada
 Dispositivo: ESP32 + sensor DHT22 (leitura da temperatura)
 Rede: Comunicação via Wi-Fi utilizando MQTT sobre TCP/IP
 Plataforma: Broker MQTT (Mosquitto) hospedado em VPS
-Aplicação: Subscriber (dashboard) para exibição dos dados
+Aplicação: Subscriber (dashboard) para exibição dos dados.
 
 
 Além disso, o sistema possui resposta local com LEDs:
