@@ -8,3 +8,15 @@ Sistema de monitoramento de temperatura para câmaras frias utilizando ESP32, pr
 
 ## Problema:
 Câmaras frias são ambientes críticos para a conservação de insumos, exigindo controle rigoroso de temperatura. A faixa ideal de operação está entre 1°C e 5°C. Quando essa faixa não é mantida, os insumos podem sofrer degradação, perda de qualidade ou até se tornarem impróprios para consumo, gerando prejuízos financeiros e riscos à saúde. A ausência de monitoramento contínuo e de alertas em tempo real pode fazer com que essas variações passem despercebidas.
+
+## Arquitetura:
+O sistema segue uma arquitetura baseada em Internet das Coisas (IoT), organizada em camadas:
+
+Dispositivo: ESP32 + sensor DHT22 (leitura da temperatura)
+Rede: Comunicação via Wi-Fi utilizando MQTT sobre TCP/IP
+Plataforma: Broker MQTT (Mosquitto) hospedado em VPS
+Aplicação: Subscriber (dashboard) para exibição dos dados
+
+Além disso, o sistema possui resposta local com LEDs:
+🟢 Verde: temperatura dentro da faixa (1°C a 5°C)
+🔴 Vermelho: temperatura fora da faixa (condição crítica)
