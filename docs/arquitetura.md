@@ -91,6 +91,10 @@ escola/grupoG/frigorifico/temperatura → envio contínuo de dados sobre tempera
 
 escola/grupoG/frigorifico/alerta → envio de eventos críticos, como temperatura fora da faixa ideal
 
+![mqtt](https://github.com/user-attachments/assets/ec378658-affc-4029-a7d9-59e0fcb22b32)
+
+
+
 
 
 
