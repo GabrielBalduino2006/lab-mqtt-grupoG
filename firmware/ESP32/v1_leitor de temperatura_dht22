@@ -26,7 +26,7 @@ void loop() {
 
   Serial.println("Temperatura: " + String(temp) + " °C");
 
-  // 🔥 Lógica dos LEDs
+
   if (temp > 5) {
     digitalWrite(LED_VERMELHO, HIGH);
     digitalWrite(LED_VERDE, LOW);
