@@ -2,7 +2,7 @@
 
 ## Data de desenvolvimento
 
-26 de Março de 2026
+21 de Março de 2026
 
 ## Objetivo
 
