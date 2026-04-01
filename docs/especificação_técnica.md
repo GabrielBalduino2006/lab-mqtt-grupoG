@@ -27,20 +27,15 @@ Esse intervalo foi definido para garantir monitoramento contínuo sem gerar trá
 
 ## Formato dos Dados (Payload)
 
-Os dados são enviados no formato JSON, permitindo estruturação e fácil interpretação.
+Os dados são enviados em formato de texto simples (string), sem estruturação em JSON.
 
 Exemplo — Temperatura normal:
 
-{
-  "temperatura": 3.2
-}
+3.2
 
 Exemplo — Alerta:
 
-{
-  "temperatura": 6.5,
-  "alerta": "fora_da_faixa"
-}
+ALERTA! Temp fora da faixa: 6.5 C
 
 ## Comunicação MQTT
 
