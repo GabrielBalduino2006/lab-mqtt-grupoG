@@ -93,11 +93,4 @@ escola/grupoG/frigorifico/alerta → envio de eventos críticos, como temperatur
 
 
 ## Diagrama
-
-![mqtt](https://github.com/user-attachments/assets/ec378658-affc-4029-a7d9-59e0fcb22b32)
-
-
-
-
-
-
+<img width="1280" height="558" alt="image" src="https://github.com/user-attachments/assets/64402477-574c-413f-a211-4db90b942b6e" />
