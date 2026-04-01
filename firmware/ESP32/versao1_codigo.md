@@ -114,6 +114,7 @@ Apesar das limitações, ela estabelece a base necessária para as próximas eta
 
 # Código do sistema:
 
+```cpp
 #include "DHTesp.h"
 
 const int DHT_PIN = 15;
