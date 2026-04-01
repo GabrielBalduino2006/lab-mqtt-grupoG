@@ -63,7 +63,7 @@ Problema:
 
 ---
 
-### 4. Uso de IA na integração
+### 3. Uso de IA na integração
 
 Parte da integração entre leitura do sensor e comunicação MQTT foi realizada com auxílio de IA.
 
