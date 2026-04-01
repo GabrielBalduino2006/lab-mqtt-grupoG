@@ -40,7 +40,7 @@ Unidade: °C
 
 Frequência de leitura: A cada 5 segundos
 
-Formato de payload: JSON
+Formato de payload: String simples
 
 QoS: 1
 
