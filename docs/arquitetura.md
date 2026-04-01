@@ -53,7 +53,7 @@ O sensor DHT22 realiza a leitura da temperatura.
 
 O ESP32 processa os dados.
 
-Os dados são estruturados em formato JSON.
+Os dados são estruturados em formato String simples.
 
 O ESP32 publica as mensagens no tópico escola/grupoG/frigorifico/temperatura, utilizando MQTT com QoS 1.
 
